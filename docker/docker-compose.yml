@@ -15,11 +15,11 @@ services:
   backend:
     build:
       context: ../backend
-      dockerfile: docker/backend.Dockerfile
+      dockerfile: ../docker/backend.Dockerfile
     container_name: freedom_wall_backend
     restart: always
     ports:
-      - "5000:5000"
+      - "5001:5000"
     environment:
       - PORT=5000
       - MONGO_URI=mongodb://mongo:27017/freedom_wall
@@ -33,7 +33,7 @@ services:
   frontend:
     build:
       context: ../frontend
-      dockerfile: docker/frontend.Dockerfile
+      dockerfile: ../docker/frontend.Dockerfile
     container_name: freedom_wall_frontend
     restart: always
     ports:
