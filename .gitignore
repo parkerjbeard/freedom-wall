@@ -1,0 +1,18 @@
+# Node modules
+node_modules/
+
+# Environment variables
+backend/.env
+frontend/.env
+
+# Logs
+*.log
+
+# Docker files
+docker-compose.override.yml
+
+# Build files
+frontend/build/
+
+# .env files
+.env
