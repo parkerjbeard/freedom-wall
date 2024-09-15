@@ -16,3 +16,6 @@ frontend/build/
 
 # .env files
 .env
+
+# IDE - Visual Studio Code
+.vscode/
