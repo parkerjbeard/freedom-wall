@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+# Freedom Wall
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Freedom Wall** is a dynamic web platform designed to empower individuals within educational communities to freely express their thoughts, ideas, and creativity. By providing an open and inclusive space, Freedom Wall fosters meaningful interactions and collaboration among students and teachers alike.
 
-## Available Scripts
+## Key Features
 
-In the project directory, you can run:
+- **Open Expression:** Share posts in various formats including text, images, PDFs, and audio files without restrictions.
+- **Inclusive Community:** Create and join categories that resonate with your interests and academic pursuits.
+- **Secure Environment:** Ensures safe and respectful interactions through robust authentication and moderation tools.
+- **Real-Time Updates:** Experience instant visibility of new posts and updates, keeping the community engaged and informed.
+- **User-Friendly Interface:** Navigate seamlessly with an intuitive design tailored for both students and educators.
 
-### `npm start`
+## Getting Started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Prerequisites
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Docker & Docker Compose:** Ensure Docker is installed and running on your machine. [Install Docker](https://docs.docker.com/get-docker/)
+- **Git:** Version control system to clone the repository. [Install Git](https://git-scm.com/downloads)
 
-### `npm test`
+### Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **Clone the Repository**
 
-### `npm run build`
+   ```bash
+   git clone https://github.com/yourusername/freedom-wall.git
+   cd freedom-wall
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. **Configure Environment Variables**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   - **Backend:** Create a `.env` file inside the `backend/` directory with the necessary configurations.
+   - **Frontend:** Create a `.env` file inside the `frontend/` directory to set the API endpoint.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. **Start the Application Using Docker Compose**
 
-### `npm run eject`
+   ```bash
+   docker-compose up -d
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Accessing Freedom Wall
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **Website:** Open your browser and navigate to [http://localhost:3000](http://localhost:3000) to explore Freedom Wall.
+- **API:** Backend services are accessible at [http://localhost:5001/api](http://localhost:5001/api)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Contributing
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+We welcome contributions from the community! Please fork the repository and submit a pull request for any enhancements or bug fixes.
 
-## Learn More
+## License
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+This project is licensed under the [MIT License](LICENSE).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+*Empowering free expression and collaboration within educational communities.*
